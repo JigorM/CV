@@ -1,0 +1,238 @@
+
+
+body {
+  text-align: center;
+  font-family: "roboto";
+  color: #5F7A61;
+  overflow-x: hidden;
+  z-index: -1;
+  background-image: url(background.jpg);
+
+
+}
+h1 {
+  font-weight: 900;
+  color: #444941;
+}
+p{
+  padding-top: 2%;
+  font-size: 1.5rem;
+}
+
+hr {
+  color: #5F7A61;
+  padding: 3px 0;
+  margin: 0;
+
+
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.card {
+
+        float:none;
+        text-align: center;
+        background-color: #5F939A;
+
+}
+
+.image-section {
+  width: 150px;
+  margin: auto;
+}
+
+/* header-navbar */
+
+#header-bar{
+
+  border-bottom-width: 3px;
+  border-bottom-color: #5F7A61;
+  padding-top: 7%;
+
+}
+
+.lettre-m {
+width: 80px;
+padding: 0 0 20px;
+margin: 0;
+filter: invert(100%);
+}
+.navbar-brand {
+  color: white;
+  text-align: left;
+}
+.navbar {
+  background-color: #59A283;
+  padding: 1% 10% 0;
+  margin: 0;
+  font-size: 1.5rem;
+
+
+}
+.nav-item {
+  padding: 0 10px 0 40px;
+  font-weight: 500;
+}
+
+.nav-item:hover {
+font-size: 1.55rem;
+font-weight: 600;
+  }
+
+  .navbar-brand {
+    font-weight: 900;
+    border-radius: 40%;
+
+  }
+/* intro */
+
+.intro  {
+  padding: 8% 7%;
+  margin: auto;
+}
+
+.photo-de-profil {
+  border-radius: 90%;
+  width:45%;
+  display: inline-block;
+}
+
+.btn-télécharger {
+margin: 35px 0;
+}
+
+.btn-télécharger:hover {
+background-color: #444941;
+font-size: 1.3rem;
+}
+
+/* formation */
+
+#formations .card-header {
+  font-size: 1.5rem;
+  background-color:#FFFEF7;
+  }
+
+  #formations h1 {
+    padding-bottom: 50px;
+  }
+
+#formations .card {
+
+          float:none;
+          text-align: center;
+          background-color: white;
+          color: #425d34;
+
+  }
+
+#formations{
+  background-color: #7FC8A9;
+
+}
+.formation-cards {
+  padding: 10%;
+}
+.formation-cards h1{
+padding: 0 0 20px;
+font-size: 3.7rem;
+
+}
+
+/* Compétences */
+
+#compétences {
+  background-color:#FFFF;
+  padding: 7%;
+  }
+
+#compétences h1 {
+    padding: 0 0 30px;
+    font-size: 3.7rem;
+  }
+
+  .card-compétences {
+    margin: auto;
+  }
+   .card-compétences .card-header {
+     font-size: 1.5rem;
+     font-weight: bold;
+   }
+  .carousel-table {
+    text-align: left;
+    margin: auto;
+  }
+
+  .carousel-table td {
+    padding: 20px;
+  }
+
+
+
+  .carousel-control-next, .carousel-control-prev {
+      filter: invert(100%);
+  }
+
+
+/* expériences */
+
+#expériences{
+  background-color: #7FC8A9;
+  padding: 7% 30%;
+
+}
+
+#expériences .card {
+
+        float:none;
+        text-align: center;
+        background-color: white;
+        color: #425d34;
+
+}
+
+#expériences h1 {
+  padding: 0 0 50px;
+  font-size: 3.7rem;
+}
+
+#expériences .card-header {
+  font-size: 1.5rem;
+  background-color:#FFFEF7;
+  }
+
+#expériences p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 10px 0 10px;
+  }
+
+/* contact info */
+
+#contact {
+    padding: 15px;
+    }
+#contact a {
+  text-decoration: none;
+  color:#425d34;
+
+}
+
+#contact a:hover {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+  .contact-image {
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 5px;
+  }
+
+.contact-image:hover {
+  width: 32px;
+  filter: invert(25%);
+}

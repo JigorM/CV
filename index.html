@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <!-- CSS only -->
+  <meta charset="utf-8">
+  <title>Igor Mbyayingabo CV</title>
+  <!-- icons -->
+  <script src="https://kit.fontawesome.com/0cdf9c4514.js" crossorigin="anonymous"></script>
+</head>
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<body>
+
+  <section id="header-bar">
+    <div class="container-fluid">
+
+      <!-- navigation bar -->
+
+      <nav class="navbar fixed-top navbar-expand-lg  navbar-light">
+        <a class="navbar-brand" href="#bonjour">
+          <img class="lettre-m" src="images/lettre-m.png" alt="lettre-M">
+        </a>
+        <a href="mailto:igor.j.mby@gmail.com"><img class="contact-image" src="images/email.png" alt="image-email"></a>
+        <a href="tel:+32471256262"><img class="contact-image" src="images/téléphone.png" alt="image-téléphone"></a>
+        <a href="https://www.linkedin.com/in/igormby"><img class="contact-image" src="images/linkedin.png" alt="image-linkedin"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#formations">Formations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#compétences">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#expériences">Expériences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+
+      </nav>
+
+
+      <!-- Intro -->
+
+      <div class="intro row">
+        <div id="bonjour" class="col-lg-6 col-sm-12">
+          <h1> Bonjour, je suis Igor.</h1>
+          <p>Ce site montre un aperçu de mes compétences en HTML, CSS et Bootstrap. Accessoirement, il reprend les données de mon C.V. que vous pouvez aussi télécharger ci-dessous.</p>
+          <form method="get" action="files/cv.pdf">
+            <button type="button submit" class="btn-télécharger btn btn-outline-success btn-lg">Télécharger mon cv</button>
+          </form>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <img class="photo-de-profil" src="images/photo-profil.jpg" alt="photo-de-profil">
+        </div>
+      </div>
+    </div>
+      <hr>
+  </section>
+
+  <!-- Formations -->
+  <section id="formations">
+
+    <div class="formation-cards row">
+      <img class="image-section" src="images/diplome.png" alt="image-diplome">
+      <h1>Formations</h1>
+
+      <table>
+        <tr>
+          <td>
+            <div class="card-formations card bg-gradient ">
+              <div class="card-header"><b>Certificat de coordinateur e-marketing</b></div>
+              <div class="card-body">
+                <h5 class="card-title">Atelier Digital</h5>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card-formations card bg-gradient ">
+              <div class="card-header"><b>Master en traduction, à finalité spécialisée</b></div>
+              <div class="card-body">
+                <h5 class="card-title">Université de Liège</h5>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="card-formations card bg-gradient ">
+              <div class="card-header"><b>Bachelier en traduction et interprétation</b></div>
+              <div class="card-body">
+                <h5 class="card-title">Université de Liège</h5>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card-formations card bg-gradient ">
+              <div class="card-header"><b>CESS en économie et langues modernes</b></div>
+              <div class="card-body">
+                <h5 class="card-title">Communauté Scolaire Saint-Benoît</h5>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <hr>
+
+
+  <!-- Compétences -->
+  <section id="compétences">
+    <img class="image-section" src="images/multitasking.png" alt="image-compétences">
+    <h1>Compétences</h1>
+
+    <div id="carousel-compétences" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="card-compétences card text-white bg-secondary" style="max-width: 40rem;">
+            <div class="card-header">Langues</div>
+            <div class="card-body">
+              <table class="carousel-table">
+                <tr>
+                  <td>
+                    <p>Français</p>
+                    <p>Anglais</p>
+                    <p>Néerlandais</p>
+                  </td>
+                  <td>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>⭐⭐⭐⭐</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-compétences card text-white bg-secondary" style="max-width: 40rem;">
+            <div class="card-header">Logiciels</div>
+            <div class="card-body">
+              <table class="carousel-table">
+                <tr>
+                  <td>
+                    <p>Trados</p>
+                    <p>Office</p>
+                    <p>Photoshop</p>
+                  </td>
+                  <td>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>⭐⭐⭐⭐</p>
+                    <p>⭐⭐</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-compétences card text-white bg-secondary" style="max-width: 40rem;">
+            <div class="card-header">Autres</div>
+            <div class="card-body">
+              <table class="carousel-table">
+                <tr>
+                  <td>
+                    <p>Rédaction</p>
+                    <p>E-marketing</p>
+                    <p>HTML/CSS</p>
+                  </td>
+                  <td>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>⭐⭐⭐</p>
+                    <p>⭐⭐⭐</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-button carousel-control-prev" type="button" data-bs-target="#carousel-compétences" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Suivant</span>
+      </button>
+      <button class="carousel-button carousel-control-next" type="button" data-bs-target="#carousel-compétences" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+
+    </div>
+  </section>
+
+  <!-- Expériences -->
+  <hr>
+  <section id="expériences">
+    <img class="image-section" src="images/experience.png" alt="image-experience">
+    <h1>Expériences</h1>
+    <div class="card">
+      <div class="card-header"><b>Elan</b>, Traducteur freelance</div>
+      <div class="card-body">
+        <p>Juillet 2021-XXXX</p>
+        <p>Traducteur spécialisé en droit et en marketing</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><b>Ecolog</b>, Agent administratif et logistique</div>
+      <div class="card-body">
+        <p>Juin 2020-Juin 2021</p>
+        <p>Accueil des clients, gestion ponctuel du stock</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><b>Boutique Translation</b>, Traducteur</div>
+      <div class="card-body">
+        <p>Janvier 2020-Mai 2020</p>
+        <p>Relectures, traductions et quelques tâches administratives, copywriting</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><b>Primark et Brico</b>, Conseiller de magasin</div>
+      <div class="card-body">
+        <p>2016-2019</p>
+        <p>Conseil, réception, caisse, service client</p>
+      </div>
+    </div>
+
+  </section>
+  <hr>
+  <section id="contact">
+    <a href="mailto:igor.j.mby@gmail.com"><img class="contact-image" src="images/email.png" alt="image-email">igor.j.mby@gmail.com</a>
+    <a href="tel:+32471256262"><img class="contact-image" src="images/téléphone.png" alt="image-téléphone">+32471256262</a>
+    <a href="https://www.linkedin.com/in/igormby"><img class="contact-image" src="images/linkedin.png" alt="image-linkedin">www.linkedin.com/in/igormby</a>
+  </section>
+
+
+
+</body>
+
+</html>
